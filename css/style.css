@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**************************************Header*********************************/
+
+.header{
+    z-index:99;
+    padding-top: 10px;
+    position: absolute;
+}
+
+
+.login li{
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 3px;
+    margin-left: 10px;
+}
+.login li:hover{
+    border: 1px solid #fff;}
+    
+#mymenu img{
+    margin-top: 4px;
+}
+.navbar-toggler{
+    color:white;
+}
+.navbar-toggler:focus {
+    box-shadow: unset!important;
+    border:2px solid white;
+}
+
+/***********************************************Banner**********************/
+.banner{
+    background-image: url('../image/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 62rem;
+    position: relative;
+    z-index: -1;
+}
+.banner .container{
+    width: 50%;
+    margin-left: 18%;
+}
+.banner h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    margin-top:30%;
+}
+.banner h1 span{
+    color: #fa7c30;
+}
+.banner p{
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .btn{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 55px;
+    width: 200px;
+    margin-top: 7%;
+    cursor: pointer!important;
+}
+.banner .btn:hover{
+    background-color: none!important;
+    border: 1px solid #fa7c30;
+    color: #fff;
+}
+
+
+/*******************************************Booking Part***************************/
+.Booking_Form .col-4{
+    padding: 0!important;
+    background-color: #fff;
+}
+.Booking_Form input {
+    margin: 2%!important;
+    padding: 10px!important;
+    border-bottom: 1px solid #000!important;
+    border: unset;
+    width: 171px;
+}
+.Booking_Form .form{
+    background-color: #fff;
+}
+.Booking_Form{
+    margin-top: -15%;
+}
+
+.Booking_Form .container{
+    width: 63%;
+}
+.Booking_Form .form h4{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.Booking_Form .form h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Booking_Form form{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.Booking_Form .btn{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 55px;
+    width: 200px;
+    margin-left: 35%;
+    margin-top: 7%;
+}
+.Booking_Form .btn:hover{
+    border: 1px solid #fa7c30;
+    background-color: unset!important;
+    color:#fa7c30;
+}
+.Booking_Form button:focus {
+    box-shadow: unset!important;
+}
+
+.Booking_Form img{
+    height: 522px;
+    width: 100%;
+}
+
+/******************Welcome**********/
+.welcome{
+    height: 1150px;
+    width: 100%;
+    background-color: #f1f4f6;
+    margin-top: -160px;
+}
+.welcome .container{
+    width:65%;
+}
+.welcome .inner-welcome{
+    position: absolute;
+    margin-top: 350px!important;
+    width:65%;
+}
+.welcome .container p{
+    font-size: 14px;
+    font-weight: 700;
+    width: 375px;
+
+}
+.welcome .container p span{
+    font-weight: 300;
+    
+}
+.welcome .container h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 190px;
+    margin-bottom: 20px;
+}
+.welcome .container h2 span{
+    color: #fa7c30;
+}
+.welcome .btn{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 55px;
+    width: 200px;
+    margin-left: 0%;
+    margin-top: 6%;
+}
+.welcome .btn:hover{
+    border: 1px solid #fa7c30;
+    background-color: unset!important;
+    color:#fa7c30;
+}
+.welcome button:focus {
+    box-shadow: unset!important;
+}
+.welcome img{
+    margin-top: 100px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
+.delete{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+  }
+
+/********************Expert Trainner************/
+.trainners{
+    background-color: #f1f4f6;
+    height: 835px;
+    width: 100%;
+}
+
+.trainners .container{
+    width:63%
+}
+.trainners .trainner_content h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 80px;
+}
+
+.trainners .trainner_content h2 span{
+    color: #fa7c30;
+}
+
+.trainners .trainner_content p{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+.trainners .figures{
+    text-align: center!important;
+    margin: auto;
+}
+.trainners .figures img{
+    margin-left: 52px;
+    margin-bottom: 20px;
+}
+
+.trainners .figures h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.trainners .figures .trainner_type{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fa7c30;
+}
+
+.trainners .figures .type_content{
+    font-size: 16px;
+    font-weight: 300;
+    width: 380px;
+    color: #000;
+}
+
+
+
+
+
+/********************************media quiry*********/
+@media(max-width:1441px){
+    .header .login{
+        width: 100%;
+    }
+    
+
+    /**********************trainner********/
+    .trainners .figures img {
+        margin-left: 23px;
+        margin-bottom: 20px;
+        height: 320px;
+        width: 251px;
+    }
+    .trainners .container {
+        width: 66%;
+    }
+    .trainners .figures .type_content {
+        font-size: 16px;
+        font-weight: 300;
+        width: 276px;
+        color: #000;
+    }
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+
+/*******************************************Booking Part***************************/
+
+.Booking_Form input{
+    margin: 2%!important;
+    padding: 10px!important;
+    border-bottom: 1px solid #000;
+    width: 171px;}
+
+.Booking_Form{
+    margin-top: -17%;
+}
+.Booking_Form .container{
+    width: 63%;
+}
+.Booking_Form .form h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Booking_Form form{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.Booking_Form img{
+    height: 492px;
+    width: 100%;
+}
+
+/******************Welcome**********/
+.welcome {
+    height: 1260px;
+    width: 100%;
+    background-color: #f1f4f6;
+    margin-top: -247px;
+}
+
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /**************************************Header*********************************/
+
+.header{
+    z-index:99;
+    padding-top: 10px;
+    position: absolute;
+}
+
+
+.login li{
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 3px;
+    margin-left: 15px;
+}
+.login li:hover{
+    border: 1px solid #fff;}
+    
+#mymenu img{
+    margin-top: 4px;
+}
+.navbar-toggler{
+    color:white;
+}
+.navbar-toggler:focus {
+    box-shadow: unset!important;
+    border:2px solid white;
+}
+
+/***********************************************Banner**********************/
+.banner{
+    background-image: url('../image/banner1180.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 62rem;
+    position: relative;
+    z-index: -1;
+}
+.banner .container{
+    width: 56%;
+    margin-left: 18%;
+}
+.banner h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    margin-top:30%;
+}
+.banner h1 span{
+    color: #fa7c30;
+}
+.banner p{
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner button{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 55px;
+    width: 200px;
+    margin-top: 7%;
+}
+
+
+/*******************************************Booking Part***************************/
+.Booking_Form {
+    margin-top: -20%;
+}
+
+.Booking_Form input{
+    width: 190px;
+}
+.Booking_Form form {
+    margin-left: 116px;
+    margin-top: 0px;
+}
+.Booking_Form .container{
+    width: 65%;
+}
+.Booking_Form .form h4{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.Booking_Form .form h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.Booking_Form button{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 55px;
+    width: 200px;
+    margin-left: -48%;
+    margin-top: -20%;
+}
+.Booking_Form img{
+    height: 450px;
+    width: 100%;
+}
+/**************welcome*/
+.welcome{
+    height: 1300px;
+    width: 100%;
+    background-color: #f1f4f6;
+    margin-top: -224px;
+}
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    /**************************************Header*********************************/
+
+.login li{
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 3px;
+    margin-left: 15px;
+}
+.login li:hover{
+    border: unset;
+}
+#mymenu{
+    background-color: black;
+}
+
+#mymenu li:hover{
+    background-color: rgb(59, 57, 57);
+
+}
+  
+
+/***********************************************Banner**********************/
+.banner h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 18%;
+}
+.banner {
+    background-image: url(../image/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% contain!important;
+    max-width: 100%;
+    height: 28rem;
+    position: relative;
+    z-index: -1;
+}
+.banner button {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 45px;
+    width: 162px;
+    margin-top: 7%;
+}
+
+
+/*******************************************Booking Part***************************/
+.Booking_Form img {
+    height: 252px;
+    width: 100%;
+}
+.Booking_Form .container {
+    width: 73%;
+}
+.Booking_Form .form h4 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.Booking_Form .form h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.Booking_Form input {
+    margin: 2%!important;
+    padding: 0px!important;
+    border-bottom: 1px solid #000;
+    width: 140px;
+    font-size: 10px;
+}
+.Booking_Form .btn {
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #fa7c30;
+    color: #fff;
+    height: 42px;
+    width: 152px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+.Booking_Form form {
+    margin-left: 14px;
+    margin-top: 9px;
+}
+
+
+
+   /***************Welcome***********/
+   .welcome {
+    height: 1284px;
+    width: 100%;
+    background-color: #f1f4f6;
+    margin-top: -160px;
+}
+   .welcome .container h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.welcome .container p {
+    font-size: 14px;
+    font-weight: 700;
+    width: 441px;
+}
+.welcome .inner-welcome {
+    position: absolute;
+    margin-top: 259px!important;
+    width: 63%;
+}
+.welcome img {
+    margin-top: 120px;
+    margin-left: -30px;
+}
+
+/**************************Exterp-Trainner*********/
+
+.trainners .figures{
+    display: flex;
+    text-align: left!important;
+}
+.trainners .figures h2 {
+    margin-top: 102px;
+    font-weight: 700;
+}
+.trainners .figures img {
+    margin-left: -17px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 251px;
+    margin-right: 30px;
+}
+.trainners {
+    background-color: #f1f4f6;
+    height: 1230px;
+    width: 100%;
+}
+.trainners .figures .type_content {
+    font-size: 16px;
+    font-weight: 300;
+    width: 276px;
+    color: #000;
+    margin-top: 15px;
+}
+    
+  }
+  
+  
+  
+
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    /*********************header***********/
+    #mymenu {
+        background-color: black;
+        font-size: 10px;
+    }
+    .login{
+        margin-top: -1px;
+    }
+    .login li:hover{
+        border: unset;
+    }
+    
+    #mymenu li:hover{
+        background-color: rgb(59, 57, 57);
+    
+    }
+
+    /*******************banner**********/
+    .banner h1 {
+        font-size: 34px;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 54%;
+    }
+    .banner .container {
+        width: 67%;
+        margin-left: 18%;
+    }
+    .banner .btn {
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #fa7c30;
+        color: #fff;
+        height: 37px;
+        width: 123px;
+        margin-top: 6%;
+    }
+    .banner {
+        background-image: url(../image/banner500.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% contain!important;
+        max-width: 100%;
+        height: 27rem;
+        position: relative;
+        z-index: -1;
+    }
+    .banner h1 {
+        font-size: 31px;
+        color: #fff;
+        font-weight: 700;
+        margin-top: 35%;
+    }
+
+
+    /*****************Booking part*********/
+    .Booking_Form .container {
+        width: 100%;
+    }
+    .Booking_Form .btn {
+        font-size: 10px;
+        font-weight: 700;
+        background-color: #fa7c30;
+        color: #fff;
+        height: 25px;
+        width: 100px;
+        margin-left: 26%;
+        margin-top: 4%;
+    }
+    .Booking_Form img {
+        height: 260px;
+        width: 100%;
+    }
+    .Booking_Form .form h4 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 4%;
+        margin-bottom: -1%;
+    }
+    .Booking_Form .form h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Booking_Form input {
+        margin: 2%!important;
+        padding: 0px!important;
+        border-bottom: 1px solid #000;
+        width: 138px;
+        font-size: 10px;
+    }
+    .Booking_Form form {
+        margin-left: 45px;
+        margin-top: 0px;
+    }
+
+
+    /***************welcome*********/
+    .welcome .container h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 0px;
+        margin-bottom:15px;
+    }
+    .welcome .container p {
+        font-size: 13px;
+        font-weight: 700;
+        width: 278px;
+        text-align: justify;
+    }
+    .welcome .inner-welcome {
+        position: absolute;
+        margin-top: 202px!important;
+        width: 65%;
+    }
+    .welcome img {
+        margin-top: 140px;
+    }
+    .welcome {
+        height: 950px;
+        width: 100%;
+        background-color: #f1f4f6;
+        margin-top: -160px;
+    }
+    .welcome .btn {
+        font-size: 10px;
+        font-weight: 700;
+        background-color: #fa7c30;
+        color: #fff;
+        height: 33px;
+        width: 118px;
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+    .welcome .welcome_content {
+        margin-left: -22px;
+    }
+    /***********trainner**********/
+    .trainners .trainner_content h2 {
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000;
+        padding-top: 45px;
+    }
+    .trainners .container {
+        width: 80%;
+    }
+    .trainners .trainner_content p {
+        font-size: 13px;
+        font-weight: 300;
+        padding-bottom: 15px;
+        padding-top: 0px;
+    }
+    .trainners .figures img {
+        margin-left: 46px;
+        margin-bottom: 20px;
+        height: 240px;
+        width: 195px;
+    }
+    .trainners .figures h2 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .trainners .figures .trainner_type {
+        font-size: 11px;
+        font-weight: 700;
+        color: #fa7c30;
+        margin-top: 2px;
+    }
+    .trainners .figures .type_content {
+        font-size: 13px;
+        font-weight: 300;
+        width: 200px;
+        color: #000;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+    }
+    .trainners {
+        background-color: #f1f4f6;
+        height: 1310px;
+        width: 100%;
+    }
+  }
